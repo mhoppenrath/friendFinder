@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "It finds friends with memes",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhoppenrath/friendFinder.git"
+  },
+  "author": "Michael McKenna Ambrose Von Hoppenrath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhoppenrath/friendFinder/issues"
+  },
+  "homepage": "https://github.com/mhoppenrath/friendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "path": "^0.12.7"
+  }
+}
