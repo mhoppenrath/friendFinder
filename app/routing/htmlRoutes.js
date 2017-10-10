@@ -7,8 +7,8 @@ module.exports - function (app) {
   });
 
 
-  app.use('/friends', function(req, res) {
-    res.sendFile(path.join(__dirname + '/../home.html'));
+  app.use('/api/friends', function(req, res) {
+    res.sendFile(path.join(__dirname + '/app/data/friends.js'));
   });
 
 }
